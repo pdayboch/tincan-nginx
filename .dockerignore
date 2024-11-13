@@ -1,0 +1,9 @@
+/build_and_push.sh
+
+/logs/
+/ssl/
+/.git/
+/.env*
+
+*.log
+*.tmp

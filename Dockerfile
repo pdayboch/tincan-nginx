@@ -16,4 +16,4 @@ COPY ./nginx.conf /etc/nginx/nginx.conf
 USER webuser:webgroup
 
 EXPOSE 8080
-CMD ["nginx", "-g", "daemon off;"]
+CMD ["nginx", "-e", "/var/log/nginx/nginx-error.log", "-g", "daemon off;"]

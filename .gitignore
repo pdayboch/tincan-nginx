@@ -1,8 +1,7 @@
 # Ignore SSL certs for nginx
-/nginx/ssl/*
-!/nginx/ssl/.keep
+/ssl/*
+!/ssl/.keep
 
 # Ignore nginx logs
-/nginx/logs/*
-!/nginx/logs/.keep
-
+/logs/*
+!/logs/.keep
